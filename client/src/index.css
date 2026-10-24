@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-surface-950 text-slate-100 font-sans;
+  }
+}
+
+/* Custom Scrollbar */
+.hub-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.hub-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.hub-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+.hub-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+.hub-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b transparent;
+}

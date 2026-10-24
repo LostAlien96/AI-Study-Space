@@ -1,0 +1,38 @@
+# Secrets and environments
+.env
+**/.env
+*.env
+
+# Python compilation & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Node & package build outputs
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+.next/
+out/
+
+# Database & local artifact storage
+artifact_storage/
+chroma_persistence/
+chroma_db/
+uploaded_files/
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
